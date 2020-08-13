@@ -1,0 +1,6 @@
+<view class="h1">新闻首页</view>
+<view wx:for="{{list}}" class="article" wx:key="index" bindtap="addHits" data-id="{{item._id}}" data-idx="{{index}}">
+    <view class="title">{{index+1}}.{{item.title}}</view>
+    <view class="content">{{item.content}}</view>
+    <view class="hits">点击量: {{item.hits}}</view>
+</view>

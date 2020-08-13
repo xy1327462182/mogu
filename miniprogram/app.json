@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo2/demo2",
+    "pages/damo1/demo1",
+    "pages/mall/mall",
+    "pages/shopcar/shopcar",
+    "pages/mine/mine"
+    
+  ],
+  "window": {
+
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle": "black"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/ico/home0.png",
+      "selectedIconPath": "/ico/home1.png"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "text": "商城",
+        "iconPath": "/ico/mall0.png",
+        "selectedIconPath": "/ico/mall1.png"
+      },
+      {
+        "pagePath": "pages/shopcar/shopcar",
+        "text": "购物车",
+        "iconPath": "/ico/shopcar0.png",
+        "selectedIconPath": "/ico/shopcar1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/ico/mine0.png",
+        "selectedIconPath": "/ico/mine1.png"
+      }
+  ],
+  "color": "#000",
+  "selectedColor": "#ff0022"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
