@@ -1,6 +1,1 @@
-<input bindinput="inputHandel"></input>
-<view>{{num}}</view>
-<button bindtap="addHandel" data-add="{{1}}">+</button>
-<button bindtap="decHandel" data-dec="{{-1}}">-</button>
-<button>按钮</button>
-<button>按钮test</button>
+

@@ -1,5 +1,0 @@
-.h1 {text-align: center; font-size: 60rpx;}
-.article {padding: 80rpx 20rpx;border: 1px solid #ccc;}
-.title {font-size: 46rpx;}
-.content {text-indent: 4rpx;}
-.hits {font-size: 34rpx;}
