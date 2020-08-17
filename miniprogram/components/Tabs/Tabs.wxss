@@ -1,0 +1,16 @@
+.tabs-title {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.title-item{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14rpx 0;
+  
+}
+.active{
+  border-bottom: 4rpx solid red;
+  color: red;
+}

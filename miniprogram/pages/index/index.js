@@ -4,7 +4,39 @@ const _ = db.command
 Page({
 
   data: {
-    num: 0
+    num: 0,
+    tabs: [
+      {
+        id: 0,
+        name: "首页",
+        isActive: true
+      },
+      {
+        id: 1,
+        name: "新闻",
+        isActive: false
+      },
+      {
+        id: 2,
+        name: "资讯",
+        isActive: false
+      },
+      {
+        id: 3,
+        name: "科技",
+        isActive: false
+      },
+    ]
+  },
+  handelItemChange(e) {
+    let index = e.detail.index
+    let tabs = this.data.tabs
+    tabs.forEach((n,i) => {
+      i == index ? n.isActive = true : n.isActive = false
+    })
+    this.setData({
+      tabs
+    })
   },
   inputHandel(e) {
     var va = e.detail.value
